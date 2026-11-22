@@ -19,10 +19,10 @@ If you just want to fix a bug or optimize an existing compiler pass, **you do no
 ## The RFC Lifecycle
 
 1. **Socialize the Idea:** Before writing a formal RFC, float your idea in the [Zen C Discord](https://discord.com/invite/q6wEsCmkJP) to gauge interest and gather initial feedback.
-2. **Draft the Proposal:** Fork this repository, copy `0000-template.md` to `text/0000-your-feature-name.md`, and fill it out completely.
+2. **Draft the Proposal:** Fork this repository, copy `0000-template.md` to `text/0000-your-feature-name.md`, and fill it out completely. Keep the `0000` prefix: do not pick a number yourself, so that proposals open at the same time cannot take the same one.
 3. **Submit a Pull Request:** Open a PR against this repository. The community and maintainers will debate the proposal in the PR comments... So, be prepared to revise your draft!
 4. **Final Comment Period (FCP):** Once the core team believes the RFC is fully mature and consensus is reached (or unresolvable disagreement is mapped out), a maintainer will propose to Accept or Reject it, initiating a 7-day Final Comment Period.
-5. **Resolution:** If accepted, the PR is merged into this repository. The RFC is now **Active** and ready to be implemented in the Zen C compiler!
+5. **Resolution:** If accepted, the file is renamed with the number of its pull request (PR #12 becomes `text/0012-your-feature-name.md`) and the PR is merged into this repository. The RFC is now **Active** and ready to be implemented in the Zen C compiler!
 
 *Note: An accepted RFC is not a guarantee that the core team will immediately write the code for it. It simply means the design is approved, and PRs implementing it will be accepted.*
 
